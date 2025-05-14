@@ -25,7 +25,12 @@ fun main(){ // in dart void main() {}
 
     /// lets talk about all of the operators.
     val operator = Operators()
-    operator.arithmeticOperators()
+//    operator.arithmeticOperators()
+//    operator.comparisonOperators()
+//    operator.logicalOperators()
+
+    val userInputAndNullability = UserInputAndNullability()
+    userInputAndNullability.userInput()
 
 
 

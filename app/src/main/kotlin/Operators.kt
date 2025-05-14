@@ -20,7 +20,20 @@ public final class Operators {
 
     }
 
-    fun comparisionOperators(){
+    fun comparisonOperators(){
+        val x:Int = 11
+        val y:Int = 12
+        println("Is x an even number? ${x % 2 == 0}")
+
+    }
+
+    fun logicalOperators(){
+        val x:Int = 12
+        val y:Int = 12
+        val isNumberEven:Boolean = x % 2 ==0 && y%2 ==0 || x + y == 24
+        println("Is the number Even? $isNumberEven")
+
+        // just like in BODMAS rule, && operator prioritze over || operator.
 
     }
 
