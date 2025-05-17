@@ -29,8 +29,22 @@ fun main(){ // in dart void main() {}
 //    operator.comparisonOperators()
 //    operator.logicalOperators()
 
-    val userInputAndNullability = UserInputAndNullability()
-    userInputAndNullability.userInput()
+//    val userInputAndNullability = UserInputAndNullability()
+//    userInputAndNullability.userInput()
+
+//    val collection = Collections()
+//    collection.array()
+//    collection.emptyArray()
+//    collection.mutableMap()
+//    collection.immutableSets()
+
+    val loops = Loops()
+//    loops.whileLoop()
+//    loops.doWhileLoop()
+    loops.forLoop()
+
+
+
 
 
 
