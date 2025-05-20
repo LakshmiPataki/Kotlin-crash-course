@@ -1,3 +1,6 @@
+
+
+
 fun main(){ // in dart void main() {}
     val x = 5 // this is a way of creating a var, in dart we use var x = 5;
 
@@ -38,15 +41,16 @@ fun main(){ // in dart void main() {}
 //    collection.mutableMap()
 //    collection.immutableSets()
 
-    val loops = Loops()
+//    val loops = Loops()
 //    loops.whileLoop()
 //    loops.doWhileLoop()
-    loops.forLoop()
+//    loops.forLoop()
 
+// Let's work on Functions
 
-
-
-
+  reverseString(reverseString = "Anantha")
+    val result = split(inputString = "Anantha", delimiter = ' ')
+    println(result)
 
 
 
